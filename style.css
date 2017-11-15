@@ -1,0 +1,42 @@
+@font-face {
+  src: url("overwatch.ttf");
+  font-family: "Overwatch";
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.main {
+    width: 600px;
+    margin: auto;
+}
+.title {
+  font-family: 'Overwatch', sans-serif;
+  color: black;
+  font-size: 52px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image {
+  margin: auto;
+  margin-top: 100px;
+  border: solid 4px black;
+  height: 300px;
+  width: 300px;
+  background-image: url("image1.png");
+  border-radius: 150px;
+  position: relative;
+}
+
+.vk {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: "Lato";
+  font-weight: 700;
+  top: 20px;
+  left: 50%;
+}
