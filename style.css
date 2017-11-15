@@ -7,6 +7,20 @@ body {
   background-color: #e8e8e8;
 }
 
+a:hover {
+    color: black;
+}
+
+.vk:before {
+  content: "";
+    display: block;
+    background: url("image1.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
 .main {
     width: 600px;
     margin: auto;
@@ -33,10 +47,12 @@ body {
 .vk {
   position: relative;
   text-decoration: none;
-  color: black;
+  color: grey;
   font-size: 22px;
   font-family: "Lato";
   font-weight: 700;
   top: 20px;
-  left: 50%;
+  display: inline-block;
+  margin-left: 80px;
+  width: 100px;
 }
